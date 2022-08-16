@@ -42,7 +42,7 @@ def export():
                        ("ALL files", "*.*")))
         file = open(file_name, "w")
         for item in data:
-            file.write(str(item)+'\n')
+            file.write(f"{str(item)}\n")
         file.close()
 
 
